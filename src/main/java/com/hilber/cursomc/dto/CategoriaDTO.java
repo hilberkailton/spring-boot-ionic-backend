@@ -2,11 +2,11 @@ package com.hilber.cursomc.dto;
 
 import java.io.Serializable;
 
-import com.hilber.cursomc.domain.Categoria;
 import javax.validation.constraints.NotEmpty;
 
 import org.hibernate.validator.constraints.Length;
 
+import com.hilber.cursomc.domain.Categoria;
 
 public class CategoriaDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
@@ -18,7 +18,6 @@ public class CategoriaDTO implements Serializable {
 	private String nome;
 
 	public CategoriaDTO() {
-
 	}
 	
 	public CategoriaDTO(Categoria obj) {

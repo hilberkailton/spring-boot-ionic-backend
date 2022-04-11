@@ -10,8 +10,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
+import com.hilber.cursomc.core.dtos.CategoriaDto;
 import com.hilber.cursomc.domain.Categoria;
-import com.hilber.cursomc.dto.CategoriaDTO;
 import com.hilber.cursomc.repositories.CategoriaRepository;
 import com.hilber.cursomc.services.exceptions.DataIntegrityException;
 import com.hilber.cursomc.services.exceptions.ObjectNotFoundException;
@@ -57,7 +57,7 @@ public class CategoriaService {
 		return repo.findAll(pageRequest);
 	}
 	
-	public Categoria fromDTO(CategoriaDTO objDto) {
+	public Categoria fromDTO(CategoriaDto objDto) {
 		return new Categoria(objDto.getId(), objDto.getNome());
 	}
 	

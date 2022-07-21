@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.hilber.cursomc.core.dtos.ClienteDTO;
-import com.hilber.cursomc.core.dtos.ClienteNewDTO;
 import com.hilber.cursomc.domain.Cliente;
+import com.hilber.cursomc.dto.ClienteDTO;
+import com.hilber.cursomc.dto.ClienteNewDTO;
 import com.hilber.cursomc.services.ClienteService;
 
 @RestController

@@ -13,13 +13,12 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.hilber.cursomc.core.dtos.ClienteDTO;
-import com.hilber.cursomc.core.dtos.ClienteNewDTO;
 import com.hilber.cursomc.domain.Cidade;
 import com.hilber.cursomc.domain.Cliente;
 import com.hilber.cursomc.domain.Endereco;
 import com.hilber.cursomc.domain.enums.TipoCliente;
-
+import com.hilber.cursomc.dto.ClienteDTO;
+import com.hilber.cursomc.dto.ClienteNewDTO;
 import com.hilber.cursomc.repositories.ClienteRepository;
 import com.hilber.cursomc.repositories.EnderecoRepository;
 import com.hilber.cursomc.services.exceptions.DataIntegrityException;

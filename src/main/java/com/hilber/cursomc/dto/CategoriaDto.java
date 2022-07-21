@@ -1,4 +1,4 @@
-package com.hilber.cursomc.core.dtos;
+package com.hilber.cursomc.dto;
 
 import java.io.Serializable;
 

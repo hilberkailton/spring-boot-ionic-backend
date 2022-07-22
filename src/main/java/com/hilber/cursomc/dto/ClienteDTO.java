@@ -7,7 +7,9 @@ import javax.validation.constraints.NotEmpty;
 
 
 import com.hilber.cursomc.domain.Cliente;
+import com.hilber.cursomc.services.validation.ClienteUpdate;
 
+@ClienteUpdate
 public class ClienteDTO  implements Serializable {
 	private static final long serialVersionUID = 1L;
 
